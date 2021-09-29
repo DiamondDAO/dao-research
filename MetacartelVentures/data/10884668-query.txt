@@ -1,0 +1,141 @@
+{
+    moloches(
+      block: {number: 13316507}
+      where: {id: "0x4570b4faf71e23942b8b9f934b47ccedf7540162"}
+      ) {
+      id
+      version
+      summoner
+      newContract
+      deleted
+      summoningTime
+      createdAt
+      periodDuration
+      votingPeriodLength
+      gracePeriodLength
+      proposalDeposit
+      dilutionBound
+      processingReward
+      # depositToken {
+      #   id
+      # }
+      # approvedTokens {
+      #   id
+      # }
+      guildBankAddress
+      guildBankBalanceV1
+      # tokens {
+      #   id
+      #   tokenAddress
+      #   whitelisted
+      #   symbol
+      #   decimals
+      # }
+      members(first: 500) {
+        id
+        createdAt
+        kicked
+        jailed
+        shares
+        loot
+      }
+      # tokenBalances {
+      #   id
+      #   token {
+      #     id
+      #     tokenAddress
+      #     whitelisted
+      #     symbol
+      #     decimals
+      #   }
+      #   tokenBalance
+      #   member {
+      #     id
+      #   }
+      #   guildBank
+      #   ecrowBank
+      #   memberBank
+      # }
+      proposals(first: 500) {
+        id
+        createdAt
+        proposalIndex
+        proposalId
+        moloch {
+          id
+        }
+        molochAddress
+        delegateKey
+        applicant
+        proposer
+        sponsor
+        processor
+        sharesRequested
+        lootRequested
+        tributeOffered
+        tributeToken
+        tributeTokenSymbol
+        tributeTokenDecimals
+        paymentRequested
+        paymentToken
+        paymentTokenSymbol
+        paymentTokenDecimals
+        yesVotes
+        noVotes
+        sponsored
+        sponsoredAt
+        processed
+        processedAt
+        didPass
+        cancelled
+        cancelledAt
+        aborted
+        whitelist
+        guildkick
+        newMember
+        trade
+        details
+        maxTotalSharesAndLootAtYesVote
+        votes {
+          id
+          createdAt
+          uintVote
+        }
+        yesShares
+        noShares
+        votingPeriodEnds
+        votingPeriodStarts
+        gracePeriodEnds
+        molochVersion
+        isMinion
+        uberHausMinionExecuted
+        executed
+        minionAddress
+        minion {
+          id
+        }
+        escrow {
+          id
+        }
+        actions {
+          id
+        }
+      }
+      # rageQuits {
+      #   id
+      #   createdAt
+      #   member {
+      #     id
+      #   }
+      #   shares
+      #   loot
+      # }
+      # minions {
+      #   id
+      #   createdAt
+      #   minionAddress
+      # }
+      totalShares
+      totalLoot
+    }
+  }
