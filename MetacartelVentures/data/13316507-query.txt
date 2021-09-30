@@ -36,6 +36,7 @@
         createdAt
         kicked
         jailed
+        didRagequit
         shares
         loot
       }
