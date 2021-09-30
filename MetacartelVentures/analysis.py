@@ -1,11 +1,12 @@
 import json
+import pandas as pd
 
 # Load data
-with open("./data/10884668-results.json", "r") as f:
+with open("./MetacartelVentures/data/10884668-results.json", "r") as f:
     results_09182020 = json.load(f)
 f.close()
 
-with open("./data/13316507-results.json", "r") as f:
+with open("./MetacartelVentures/data/13316507-results.json", "r") as f:
     results_09282021 = json.load(f)
 f.close()
 
@@ -14,7 +15,16 @@ if __name__ == "__main__":
 # Decentralization
 # - Minimum winning coalition (minimum % of wallets needed to affect a vote)
 # - % of total wallets that published a proposal  (y)
+# Number of wallets that published proposal / total number of wallets
+# Total number of wallets: 
+    df_09182020_members = pd.DataFrame.from_dict(results_09182020["data"]["moloches"][0]["members"])
+    
+    # Clean up member id by deleting the DAO id that's tagged on.
+    df_09182020_members["id"] = df_09182020_members.apply(lambda row: row["id"].split('-')[2], axis=1)
+
+    df_09182020_proposals = pd.DataFrame.from_dict(results_09182020["data"]["moloches"][0]["proposals"])
 # - Voter participation rate (y)
+    print('hello')
 # - MoM change
 
 # Proposals
