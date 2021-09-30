@@ -3,6 +3,10 @@ import requests
 from datetime import datetime, timezone
 import time
 from pprint import pprint
+import sys
+
+sys.path.append("../")
+from util.analysis_functions import get_aggregated_member_info
 
 # TO DO: Need to add endpoint as argument. Right now data is only mainnet DAO members.
 def run_member_query(q):
