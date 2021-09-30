@@ -1,3 +1,28 @@
+# clean raw members query data into a dictionary organized by wallet address (id)
+def get_aggregated_member_info(member_dict):
+    cleaned_member_dict = {}
+    for memberAddress in member_dict.keys():
+        currentDaos = []
+        kickedFromDaos = []
+        rageQuitFromDaos = []
+        for entry in member_dict[memberAddress]["dao_information"]:
+            if entry["kicked"]:
+                kickedFromDaos.append(entry["molochAddress"])
+            if entry["didRagequit"]:
+                rageQuitFromDaos.append(entry["molochAddress"])
+            if not entry["kicked"] and not entry["didRagequit"]:
+                currentDaos.append(entry["molochAddress"])
+        aggregated_information_dict = {}
+        aggregated_information_dict["current_daos"] = currentDaos
+        aggregated_information_dict["kicked_from"] = kickedFromDaos
+        aggregated_information_dict["rage_quit_from"] = rageQuitFromDaos
+        cleaned_member_dict[memberAddress] = member_dict[memberAddress]
+        cleaned_member_dict[memberAddress]["aggregated_information"] = aggregated_information_dict
+
+    return cleaned_member_dict
+
+
+# generate metrics on members of a specific dao
 def get_member_metrics(dao_info, member_dict):
 
     kicked_member_count = 0
@@ -35,6 +60,7 @@ def get_member_metrics(dao_info, member_dict):
     return member_metrics_dict
 
 
+# generate metrics on proposals and decentralization for a given dao
 def get_decentralized_and_proposal_metrics(dao_info, block_number):
 
     total_proposals = 0

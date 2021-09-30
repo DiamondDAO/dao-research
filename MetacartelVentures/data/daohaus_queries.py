@@ -80,29 +80,6 @@ def run_moloch_query(q, single_entry=True):
     return final_dict
 
 
-def get_aggregated_member_info(member_dict):
-    cleaned_member_dict = {}
-    for memberAddress in member_dict.keys():
-        currentDaos = []
-        kickedFromDaos = []
-        rageQuitFromDaos = []
-        for entry in member_dict[memberAddress]["dao_information"]:
-            if entry["kicked"]:
-                kickedFromDaos.append(entry["molochAddress"])
-            if entry["didRagequit"]:
-                rageQuitFromDaos.append(entry["molochAddress"])
-            if not entry["kicked"] and not entry["didRagequit"]:
-                currentDaos.append(entry["molochAddress"])
-        aggregated_information_dict = {}
-        aggregated_information_dict["current_daos"] = currentDaos
-        aggregated_information_dict["kicked_from"] = kickedFromDaos
-        aggregated_information_dict["rage_quit_from"] = rageQuitFromDaos
-        cleaned_member_dict[memberAddress] = member_dict[memberAddress]
-        cleaned_member_dict[memberAddress]["aggregated_information"] = aggregated_information_dict
-
-    return cleaned_member_dict
-
-
 if __name__ == "__main__":
     member_query_string = """
     {
