@@ -1,5 +1,5 @@
 import json
-from data.daohaus_members import run_member_query, get_aggregated_member_info
+from data.daohaus_queries import run_member_query, get_aggregated_member_info
 from util.analysis_functions import *
 
 # Load data
