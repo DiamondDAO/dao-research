@@ -4,10 +4,10 @@ from util.analysis_functions import *
 from util.etherscan_queries import *
 
 # Load data
-with open("./data/10884668-results.json", "r") as f:
+with open("./MetacartelVentures/data/10884668-results.json", "r") as f:
     results_09182020 = json.load(f)
 
-with open("./data/13316507-results.json", "r") as f:
+with open("./MetacartelVentures/data/13316507-results.json", "r") as f:
     results_09282021 = json.load(f)
 
 if __name__ == "__main__":
