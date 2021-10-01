@@ -5,9 +5,6 @@ import time
 from pprint import pprint
 import sys
 
-sys.path.append("../")
-from util.analysis_functions import get_aggregated_member_info
-
 # TO DO: Need to add endpoint as argument. Right now data is only mainnet DAO members.
 def run_member_query(q):
 
@@ -85,6 +82,10 @@ def run_moloch_query(q, single_entry=True):
 
 
 if __name__ == "__main__":
+
+    sys.path.append("../")
+    from util.analysis_functions import get_aggregated_member_info
+
     member_query_string = """
     {
       members(

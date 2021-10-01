@@ -1,6 +1,7 @@
 import json
-from data.daohaus_queries import run_member_query, get_aggregated_member_info
+from data.daohaus_queries import run_member_query, run_moloch_query
 from util.analysis_functions import *
+from util.etherscan_queries import *
 
 # Load data
 with open("./data/10884668-results.json", "r") as f:
@@ -70,6 +71,8 @@ if __name__ == "__main__":
     # - Average DAOs per member
 
     block_number = "13316507"
+    timestamp = get_timestamp_from_block(block_number)
+    print(timestamp)
 
     for idx, dao_info in enumerate(results_09282021["data"]["moloches"]):
         dao = dao_info
