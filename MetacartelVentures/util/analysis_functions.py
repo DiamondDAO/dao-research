@@ -61,7 +61,10 @@ def get_member_metrics(dao_info, member_dict):
 
 
 # generate metrics on proposals and decentralization for a given dao
-def get_decentralized_and_proposal_metrics(dao_info, block_number):
+def get_decentralized_and_proposal_metrics(dao_info, timestamp):
+
+    reference_timestamp = int(timestamp)
+    month_timestamp = reference_timestamp - (60 * 60 * 24 * 30)
 
     total_proposals = 0
     total_votes = 0
@@ -69,6 +72,7 @@ def get_decentralized_and_proposal_metrics(dao_info, block_number):
     total_shares_given = 0
     total_tribute_dict = {}
     total_payment_dict = {}
+    member_proposal_dict = {}
 
     proposal_metrics_dict = {}
 
@@ -85,33 +89,34 @@ def get_decentralized_and_proposal_metrics(dao_info, block_number):
         for vote in proposal["votes"]:
             memberAddress = vote["id"].split("-")[2]
             voter_wallets.add(memberAddress)
-        total_votes += proposal["yesVotes"] + proposal["noVotes"]
+        total_votes += int(proposal["yesVotes"]) + int(proposal["noVotes"])
         if proposal["didPass"]:
             total_proposals_passed += 1
         else:
             continue
-        total_shares_given += proposal["sharesRequested"]
-        if proposal["tributeTokenSymbol"] not in total_tribute_dict.keys():
-            total_tribute_dict[proposal["tributeTokenSymbol"]] = {
-                "decimal": int(proposal["tributeTokenDecimals"]),
-                "token_address": proposal["tributeToken"],
-                "value": float(proposal["tributeOffered"]),
-            }
-        else:
-            total_tribute_dict[proposal["tributeTokenSymbol"]]["value"] = total_tribute_dict[
-                proposal["tributeTokenSymbol"]
-            ]["value"] + float(proposal["tributeOffered"])
-
-        if proposal["paymentTokenSymbol"] not in total_payment_dict.keys():
-            total_tribute_dict[proposal["paymentTokenSymbol"]] = {
-                "decimal": int(proposal["paymentTokenDecimals"]),
-                "token_address": proposal["paymentToken"],
-                "value": float(proposal["paymentRequested"]),
-            }
-        else:
-            total_tribute_dict[proposal["paymentTokenSymbol"]]["value"] = total_tribute_dict[
-                proposal["paymentTokenSymbol"]
-            ]["value"] + float(proposal["paymentToken"])
+        total_shares_given += int(proposal["sharesRequested"])
+        if proposal["tributeTokenSymbol"]:
+            if proposal["tributeTokenSymbol"] not in total_tribute_dict.keys():
+                total_tribute_dict[proposal["tributeTokenSymbol"]] = {
+                    "decimal": int(proposal["tributeTokenDecimals"]),
+                    "token_address": proposal["tributeToken"],
+                    "value": float(proposal["tributeOffered"]),
+                }
+            else:
+                total_tribute_dict[proposal["tributeTokenSymbol"]]["value"] = total_tribute_dict[
+                    proposal["tributeTokenSymbol"]
+                ]["value"] + float(proposal["tributeOffered"])
+        if proposal["paymentTokenSymbol"]:
+            if proposal["paymentTokenSymbol"] not in total_payment_dict.keys():
+                total_tribute_dict[proposal["paymentTokenSymbol"]] = {
+                    "decimal": int(proposal["paymentTokenDecimals"]),
+                    "token_address": proposal["paymentToken"],
+                    "value": float(proposal["paymentRequested"]),
+                }
+            else:
+                total_tribute_dict[proposal["paymentTokenSymbol"]]["value"] = total_tribute_dict[
+                    proposal["paymentTokenSymbol"]
+                ]["value"] + float(proposal["paymentToken"])
 
     proposal_metrics_dict["total_proposals"] = total_proposals
     proposal_metrics_dict["total_votes"] = total_votes

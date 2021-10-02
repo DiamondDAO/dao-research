@@ -10,7 +10,7 @@ def get_block_from_timestamp(timestamp):
         ?module=block
         &action=getblocknobytime
         &timestamp=
-        &closest=after
+        &closest=before
         &apikey=
         """
 
