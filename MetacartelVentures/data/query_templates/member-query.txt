@@ -1,0 +1,16 @@
+{
+    members(
+    block: {number: }
+    first: 1000, where: {id_gt: lastID}) {
+        id
+        createdAt
+        molochAddress
+        memberAddress
+        shares
+        loot
+        exists
+        didRagequit
+        kicked
+        jailed
+    }
+}
