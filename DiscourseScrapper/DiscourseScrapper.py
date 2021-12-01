@@ -86,8 +86,8 @@ class DiscourseScrapper:
                 return self.get_users(data=data, page=page+1)
             return data
         except:
-            time.sleep(1)
-            self.get_users(data=data, page=page, retry=retry+1)
+            time.sleep(retry)
+            return self.get_users(data=data, page=page, retry=retry+1)
 
     def get_categories(self, data=[], retry=0):
         if retry > 10:
@@ -98,8 +98,8 @@ class DiscourseScrapper:
             data += content['category_list']['categories']
             return data
         except:
-            time.sleep(1)
-            self.get_categories(retry=retry+1)
+            time.sleep(retry)
+            return self.get_categories(retry=retry+1)
 
     def get_topics(self, category, data=[], page=0, retry=0):
         if retry > 10:
@@ -112,7 +112,8 @@ class DiscourseScrapper:
                 return self.get_topics(category, data=data, page=page+1)
             return data
         except:
-            self.get_topics(category, data=data, page=page, retry=retry+1)
+            time.sleep(retry)
+            return self.get_topics(category, data=data, page=page, retry=retry+1)
 
     def get_posts(self, topic_id, retry=0):
         if retry > 10:
@@ -122,8 +123,8 @@ class DiscourseScrapper:
             content = json.loads(r.content.decode())
             return content             
         except:
-            time.sleep(1)
-            self.get_posts(topic_id, retry=retry+1)
+            time.sleep(retry)
+            return self.get_posts(topic_id, retry=retry+1)
 
     def get_likes(self, post_id, retry=0):
         if retry > 10:
@@ -133,8 +134,8 @@ class DiscourseScrapper:
             content = json.loads(r.content.decode())
             return content    
         except:
-            time.sleep(1)
-            self.get_likes(post_id, retry=retry+1)
+            time.sleep(retry)
+            return self.get_likes(post_id, retry=retry+1)
             
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Discourse Forum Parser.')
