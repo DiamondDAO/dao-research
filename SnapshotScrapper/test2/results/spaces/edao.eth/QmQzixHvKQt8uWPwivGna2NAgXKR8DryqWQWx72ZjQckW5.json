@@ -1,0 +1,1 @@
+{"id": "QmQzixHvKQt8uWPwivGna2NAgXKR8DryqWQWx72ZjQckW5", "title": "Test proposal", "body": "Test", "choices": ["Yes", "No", "Abstain"], "start": 1616006340, "end": 1616265540, "snapshot": "0", "state": "closed", "author": "0x056590F16D5b314a132BbCFb1283fEc5D5C6E670", "space": {"id": "edao.eth", "name": "ElasticDAO Testnet"}, "votes": 0, "votes_data": []}

@@ -1,0 +1,1 @@
+{"id": "0xcc2d6606c8da77b0403eedd784284b1205d46eb20b10aac825c55161ca20c199", "title": "TEST", "body": "HETEST", "choices": ["VOTE YES", "VOTE NO"], "start": 1635825600, "end": 1635843600, "snapshot": "13532569", "state": "closed", "author": "0x769b100C21cCC90Dc96ee15B1Ff888A446dbe4D9", "space": {"id": "hellohowareyou.eth", "name": "HelloHowAreYou"}, "votes": 0, "votes_data": []}

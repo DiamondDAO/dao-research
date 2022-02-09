@@ -1,0 +1,1 @@
+{"id": "QmNTqGuWwkQWpBJCGA1CXPzoQ1yjkgkwtXNpFuTMdtuULp", "title": "Test", "body": "Hello, world.", "choices": ["Boring", "Vote", "DAO"], "start": 1606255200, "end": 1606341600, "snapshot": "11319652", "state": "closed", "author": "0x583e5fC0751c717557e3D1568207969CeD14892D", "space": {"id": "boringvote.eth", "name": "BoringDAO"}, "votes": 0, "votes_data": []}

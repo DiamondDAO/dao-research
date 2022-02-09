@@ -1,0 +1,1 @@
+{"id": "QmeBcy7NiBv2vgRDxyKbe2aW9AScYcSQvdnTdu4CbkR1Y8", "title": "Test Vote", "body": "testing snapshot voting", "choices": ["Yes", "No", "Abstain"], "start": 1615751160, "end": 1616269560, "snapshot": "0", "state": "closed", "author": "0x9B921faD875b06183d3992A125026c89915D71F6", "space": {"id": "edao.eth", "name": "ElasticDAO Testnet"}, "votes": 0, "votes_data": []}

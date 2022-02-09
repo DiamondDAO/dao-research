@@ -1,0 +1,1 @@
+{"id": "Qma4pCW1rY8bHHFarVsRqx3MKnjNsTvrXNDE8F4hehCbZH", "title": "Test vesting", "body": "", "choices": ["Yes", "No"], "start": 1626771600, "end": 1627722000, "snapshot": "5202896", "state": "closed", "author": "0xa7a7720499b7eB1F1408A8A319284bFD2Db4a427", "space": {"id": "ssv-test.eth", "name": "SSV Test Network"}, "votes": 0, "votes_data": []}

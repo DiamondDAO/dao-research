@@ -1,0 +1,1 @@
+{"id": "0x0922d11fe7a687b1b8fbf90709d9b3ab36a9a12df4d45a78cc0505c72f5828e7", "title": "test1", "body": "test", "choices": ["yes", "no"], "start": 1636776000, "end": 1636862400, "snapshot": "21314989", "state": "closed", "author": "0x2CCed186C0B172443884B0dAe52695e847EE010d", "space": {"id": "zjw023.eth", "name": "ScriptDAO"}, "votes": 0, "votes_data": []}

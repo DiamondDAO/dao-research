@@ -1,0 +1,1 @@
+{"id": "QmQbG6aGmVfEVtXW174y9ayxMcbuSNXNYv1oTB5571dLCh", "title": "testproposal", "body": "testbody", "choices": ["Yes", "No"], "start": 1610000000, "end": 1630000000, "snapshot": "8540032", "state": "closed", "author": "0x94cea00E48B7ed05477A98E9f8b7d88dF6ebDe5f", "space": {"id": "geometrylabs.eth", "name": "Reinsurance"}, "votes": 0, "votes_data": []}

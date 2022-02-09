@@ -1,0 +1,1 @@
+{"id": "QmSkmezqNiA8noQh7w9Xft6tndzpDtUmLjjv8RZxVeEC7d", "title": "another test", "body": "test string2", "choices": ["Yes", "No"], "start": 1633140000, "end": 1633402800, "snapshot": "13352509", "state": "closed", "author": "0xbDFd060ac349aC8b041D89aC491c89A78b4930E4", "space": {"id": "testplugin.eth", "name": "TestSN"}, "votes": 0, "votes_data": []}

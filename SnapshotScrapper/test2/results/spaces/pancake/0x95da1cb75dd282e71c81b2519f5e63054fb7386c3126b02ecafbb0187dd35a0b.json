@@ -1,0 +1,1 @@
+{"id": "0x95da1cb75dd282e71c81b2519f5e63054fb7386c3126b02ecafbb0187dd35a0b", "title": "test", "body": "test1", "choices": ["test1", "test2"], "start": 1636776000, "end": 1636779600, "snapshot": "12611213", "state": "closed", "author": "0xD9f4985a73349dea9aCB7c424E35056714bA2B35", "space": {"id": "pancake", "name": "PancakeSwap"}, "votes": 0, "votes_data": []}

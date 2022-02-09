@@ -1,0 +1,1 @@
+{"id": "QmSki5EmgrWcZehpfjkHfF9SeV7FHBRZhWCNVe9WZRZxEi", "title": "Quorum test", "body": "Will it show quorum?", "choices": ["y", "n"], "start": 1624550400, "end": 1624809600, "snapshot": "8820802", "state": "closed", "author": "0x6c8961b2160C9ca2071AEBaDcaF046B183b51bBD", "space": {"id": "test.alirun.eth", "name": "Test DAO"}, "votes": 0, "votes_data": []}

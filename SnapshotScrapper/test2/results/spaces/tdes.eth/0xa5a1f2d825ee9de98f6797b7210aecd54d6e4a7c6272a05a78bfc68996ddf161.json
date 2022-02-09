@@ -1,0 +1,1 @@
+{"id": "0xa5a1f2d825ee9de98f6797b7210aecd54d6e4a7c6272a05a78bfc68996ddf161", "title": "Test", "body": "test voting", "choices": ["A", "B"], "start": 1636254000, "end": 1636858800, "snapshot": "13568265", "state": "closed", "author": "0xDbe58f67f92e09Cc96035886b9Ba76d273B6A294", "space": {"id": "tdes.eth", "name": "TDeS"}, "votes": 0, "votes_data": []}
