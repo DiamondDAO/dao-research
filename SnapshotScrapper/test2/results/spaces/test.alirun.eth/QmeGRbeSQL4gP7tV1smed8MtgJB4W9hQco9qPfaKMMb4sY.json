@@ -1,0 +1,1 @@
+{"id": "QmeGRbeSQL4gP7tV1smed8MtgJB4W9hQco9qPfaKMMb4sY", "title": "Test Prop 2", "body": "desc", "choices": ["y", "n"], "start": 1620921600, "end": 1622131200, "snapshot": "8568777", "state": "closed", "author": "0x06BDa46e6867d89f6ef5F03CCe1f331c86d51760", "space": {"id": "test.alirun.eth", "name": "Test DAO"}, "votes": 0, "votes_data": []}

@@ -1,0 +1,1 @@
+{"id": "QmNks4PeQLyGpJ4duriNUhKsdK5oUvXSMRdrp7mFHRPJQT", "title": "Test proposal", "body": "This is just a test proposal", "choices": ["Good", "Not Good"], "start": 1617465600, "end": 1617472800, "snapshot": "12166752", "state": "closed", "author": "0x65b0D5e1dc0dEE0704f53f660aA865C72e986fc7", "space": {"id": "igov.eth", "name": "igov"}, "votes": 0, "votes_data": []}

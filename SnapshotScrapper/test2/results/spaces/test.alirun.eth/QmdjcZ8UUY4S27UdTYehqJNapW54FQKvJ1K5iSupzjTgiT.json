@@ -1,0 +1,1 @@
+{"id": "QmdjcZ8UUY4S27UdTYehqJNapW54FQKvJ1K5iSupzjTgiT", "title": "Quorum test 2", "body": "test", "choices": ["y", "n"], "start": 1624550400, "end": 1624723200, "snapshot": "8820810", "state": "closed", "author": "0x6c8961b2160C9ca2071AEBaDcaF046B183b51bBD", "space": {"id": "test.alirun.eth", "name": "Test DAO"}, "votes": 0, "votes_data": []}

@@ -1,0 +1,1 @@
+{"id": "QmVybTWgHNjtEdkLEQMnG9gR671Lt6JtxWU5h39XR6KfTd", "title": "Eine Frage", "body": "Das ist meine Frage", "choices": ["Y", "N"], "start": 1630490400, "end": 1631268000, "snapshot": "27121718", "state": "closed", "author": "0x05c85Ab5B09Eb8A55020d72daf6091E04e264af9", "space": {"id": "weth-rinkeby", "name": "WETH Kovan"}, "votes": 0, "votes_data": []}

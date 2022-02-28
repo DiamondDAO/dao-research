@@ -1,0 +1,1 @@
+{"id": "QmULQdPFwg5LZ6B6uxfoj1xuz7T4a5YQtQfxFkhD6pmt2j", "title": "Simple test", "body": "Check string change", "choices": ["Yes", "No"], "start": 1633053600, "end": 1633402800, "snapshot": "13351788", "state": "closed", "author": "0xbDFd060ac349aC8b041D89aC491c89A78b4930E4", "space": {"id": "testplugin.eth", "name": "TestSN"}, "votes": 0, "votes_data": []}

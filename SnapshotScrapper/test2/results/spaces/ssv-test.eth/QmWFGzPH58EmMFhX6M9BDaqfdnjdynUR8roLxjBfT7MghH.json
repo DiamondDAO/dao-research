@@ -1,0 +1,1 @@
+{"id": "QmWFGzPH58EmMFhX6M9BDaqfdnjdynUR8roLxjBfT7MghH", "title": "test ssv with erc20&vesting", "body": "", "choices": ["yes", "no"], "start": 1627374300, "end": 1627374600, "snapshot": "5213553", "state": "closed", "author": "0xa7a7720499b7eB1F1408A8A319284bFD2Db4a427", "space": {"id": "ssv-test.eth", "name": "SSV Test Network"}, "votes": 0, "votes_data": []}

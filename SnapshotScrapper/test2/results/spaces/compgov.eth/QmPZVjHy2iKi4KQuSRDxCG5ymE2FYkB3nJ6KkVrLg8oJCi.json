@@ -1,0 +1,1 @@
+{"id": "QmPZVjHy2iKi4KQuSRDxCG5ymE2FYkB3nJ6KkVrLg8oJCi", "title": "Test", "body": "test", "choices": ["yes", "no"], "start": 1631783400, "end": 1631784600, "snapshot": "13239999", "state": "closed", "author": "0x503F84693a76cfF67B313D0d56B0b66a67e45f6B", "space": {"id": "compgov.eth", "name": "Compound Governance"}, "votes": 0, "votes_data": []}

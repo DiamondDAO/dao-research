@@ -1,0 +1,1 @@
+{"id": "QmdMyrar1mgrawmH6xHeHWDmuF7sTeub5UdXR2zNNVxKvo", "title": "Test voting power", "body": "Test", "choices": ["Yes", "No"], "start": 1614006000, "end": 1614092400, "snapshot": "8119132", "state": "closed", "author": "0x0b25186a5C1302b62F8D1F7276cFd14207C92597", "space": {"id": "vote-rinkeby.airswap.eth", "name": "AirSwap [Rinkeby]"}, "votes": 0, "votes_data": []}

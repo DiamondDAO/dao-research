@@ -1,0 +1,1 @@
+{"id": "QmSuJJSNg6DWKikjP1tvLQdrAbmuBqDRAQmSHmMXLzaTR4", "title": "WETH Kovan Test", "body": "test proposal", "choices": ["1", "2"], "start": 1614571200, "end": 1616040000, "snapshot": "24003381", "state": "closed", "author": "0x8b7F9f884B2538a97F0ea0FCB3e1D4Fc507bc012", "space": {"id": "weth-rinkeby", "name": "WETH Kovan"}, "votes": 0, "votes_data": []}

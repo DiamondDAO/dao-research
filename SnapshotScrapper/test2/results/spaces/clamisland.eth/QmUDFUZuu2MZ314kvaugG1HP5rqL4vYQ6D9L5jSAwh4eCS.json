@@ -1,0 +1,1 @@
+{"id": "QmUDFUZuu2MZ314kvaugG1HP5rqL4vYQ6D9L5jSAwh4eCS", "title": "Test", "body": "testing snapshot voting", "choices": ["test choice 1", "test choice 2"], "start": 1622037600, "end": 1622080800, "snapshot": "7750373", "state": "closed", "author": "0xdDdBe2A39e0AA77fa9930B50BB966cF7803B6031", "space": {"id": "clamisland.eth", "name": "Clam Island"}, "votes": 0, "votes_data": []}

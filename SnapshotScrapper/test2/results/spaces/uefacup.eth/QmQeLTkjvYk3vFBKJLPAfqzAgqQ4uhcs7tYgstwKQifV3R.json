@@ -1,0 +1,1 @@
+{"id": "QmQeLTkjvYk3vFBKJLPAfqzAgqQ4uhcs7tYgstwKQifV3R", "title": "Will it rain?", "body": "Let's decide on the weather.", "choices": ["Yes", "No"], "start": 1631178000, "end": 1631181600, "snapshot": "13190410", "state": "closed", "author": "0x8B0573d1c80362db589Eda39C2e30F5190d7EB51", "space": {"id": "uefacup.eth", "name": "TestDAO"}, "votes": 0, "votes_data": []}

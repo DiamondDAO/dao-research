@@ -1,0 +1,1 @@
+{"id": "QmPakweEPN45jqjAasFYP9P6AwdH7GUJedaEbMyE3Ys9vZ", "title": "test xss", "body": "test <script>alert(11)</script>", "choices": ["1", "2"], "start": 1617580800, "end": 1617667200, "snapshot": "8360345", "state": "closed", "author": "0x9488fD3FBCa0B6B1aDfd191D60FdBE351C7C88AE", "space": {"id": "octofi", "name": "OctoFi"}, "votes": 0, "votes_data": []}

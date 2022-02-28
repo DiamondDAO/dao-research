@@ -1,0 +1,1 @@
+{"id": "QmXwo2udqEvgQqypXz4EYY8puAF4pEPKhpTYDCDgQumZGx", "title": "Test Vote", "body": "I don't think this is installed", "choices": ["Yes", "No", "Abstain"], "start": 1615740120, "end": 1615826520, "snapshot": "1", "state": "closed", "author": "0x64B7fcC8C17540139BDd84d00c7261035602Cb66", "space": {"id": "edao.eth", "name": "ElasticDAO Testnet"}, "votes": 0, "votes_data": []}
