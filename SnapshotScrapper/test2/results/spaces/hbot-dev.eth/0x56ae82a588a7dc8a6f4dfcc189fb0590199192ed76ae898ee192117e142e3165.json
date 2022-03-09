@@ -1,0 +1,1 @@
+{"id": "0x56ae82a588a7dc8a6f4dfcc189fb0590199192ed76ae898ee192117e142e3165", "title": "Proposal Testing", "body": "PR1", "choices": ["For", "Against", "Abstain"], "start": 1637679600, "end": 1637766000, "snapshot": "9695074", "state": "closed", "author": "0x58B7AA5bEd029A5D149E108Ad4bdF836D10F70Ea", "space": {"id": "hbot-dev.eth", "name": "CA Test"}, "votes": 0, "votes_data": []}

@@ -1,0 +1,1 @@
+{"id": "QmPdEje1QHoSax6z7pQS6ea93MwziwGQGxwrFrA4inW3rE", "title": "Test Multichain", "body": "", "choices": ["multichain is working", "nothing works"], "start": 1633057200, "end": 1633532400, "snapshot": "9388474", "state": "closed", "author": "0xc713E11091C74151020ee49e650C3847C7028e32", "space": {"id": "testplugin.eth", "name": "TestSN"}, "votes": 0, "votes_data": []}

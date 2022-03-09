@@ -1,0 +1,1 @@
+{"id": "QmdDs9vib7vE34i4ag9LK5rE16Z46JhSh33LfumMZtYj5j", "title": "B test", "body": "lorem ipsum", "choices": ["foo", "bar"], "start": 1615449600, "end": 1615536000, "snapshot": "23862627", "state": "closed", "author": "0x17a416afBF317Ab30b75E8B46920667512f0c0c2", "space": {"id": "kovan.mimo.eth", "name": "Kovan MIMO"}, "votes": 0, "votes_data": []}

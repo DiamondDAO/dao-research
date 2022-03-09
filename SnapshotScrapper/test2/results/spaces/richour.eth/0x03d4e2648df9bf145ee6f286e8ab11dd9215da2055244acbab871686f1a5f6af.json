@@ -1,0 +1,1 @@
+{"id": "0x03d4e2648df9bf145ee6f286e8ab11dd9215da2055244acbab871686f1a5f6af", "title": "Hello World", "body": "hello world?", "choices": ["YES", "NO", "NONE"], "start": 1637380800, "end": 1637467200, "snapshot": "12769726", "state": "closed", "author": "0x8248F86b4A9ae453e4C5c3c20C47f41454709231", "space": {"id": "richour.eth", "name": "HELLOWORLD"}, "votes": 0, "votes_data": []}

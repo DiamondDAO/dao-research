@@ -1,0 +1,1 @@
+{"id": "0x2dd0549e7b0d36493c5df4f24aae9c91c94aed6c2075a46c441dfea96d5e7e82", "title": "Test proposal 2", "body": "", "choices": ["Yes", "No"], "start": 1637564400, "end": 1637568000, "snapshot": "13667130", "state": "closed", "author": "0xe61bbc548BB6a2605a5Db46635b14ED292Bc4949", "space": {"id": "popcorn-snapshot.eth", "name": "Popcorn"}, "votes": 0, "votes_data": []}
